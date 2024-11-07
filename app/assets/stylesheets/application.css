@@ -1,0 +1,38 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --bg-color: #262424;
+    --text-color: rgba(215, 20, 20, 0.93);
+    --text-hover-color: rgba(243, 17, 17, 0.93);
+    --white-color: #ecebeb;
+    --header-bg-color: #1c1b1b;
+    --table-color: #262424;
+    --table-color-secondary: #2f2d2d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 23px;
+    font-family: 'inter', 'sans-serif', 'Georgia', 'Times New Roman';
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}

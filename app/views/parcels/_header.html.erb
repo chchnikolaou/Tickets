@@ -1,0 +1,10 @@
+<%= stylesheet_link_tag('header') %>
+
+<div class="header">
+  <h2><%= link_to('Tickets', root_path, class:'header') %></h2>
+  <ul>
+    <li><%= link_to('All Tickets', '/tickets/', class:'header') %></li>
+    <li><%= link_to('Submit a Ticket', '/tickets/new', class:'header') %></li>
+  </ul>
+  <div class="menu"><%= image_tag('menu.png') %></div>
+</div>

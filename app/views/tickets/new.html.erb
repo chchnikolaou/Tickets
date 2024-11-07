@@ -1,0 +1,14 @@
+<%= stylesheet_link_tag('ticket/ticket_submit') %>
+
+<div class="submit-content">
+<% content_for :title, "New ticket" %>
+
+<h1>New ticket</h1>
+<div class="submit-content-child">
+<%= render "form", ticket: @ticket %>
+
+<div class="back_btn">
+  <%= link_to "Back to tickets", tickets_path, class:'back_btn' %>
+</div>
+  </div>
+</div>
